@@ -507,5 +507,12 @@ html {-webkit-transition : -webkit-filter 300ms linear;}
             <p>© 2025 Muhamad Fikry Saputra</p>
         </div>
     </footer>
+    
+    <script>
+    document.querySelector('.btn').addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    </script>
 
 </body></html>
